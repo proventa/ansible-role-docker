@@ -13,11 +13,11 @@
     name: "*"
     state: latest
 
+- name: Install curl
+  apt:
+    name: curl
+
 - name: install os dependencies
   apt:
     name: "{{ os_packages }}"
     state: present
-
-- name: Remove useless packages from the cache
-  apt:
-    autoclean: yes
