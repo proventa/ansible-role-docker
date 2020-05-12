@@ -31,7 +31,6 @@ remove_docker_components:
 
 # os dependencies
 os_packages:
-    - curl
     - apt-transport-https
     - ca-certificates
     - gnupg2
