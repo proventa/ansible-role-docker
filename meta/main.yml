@@ -1,0 +1,19 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: docker
+  description: Role for deploying a specific docker version on ubuntu
+  author: yanehi
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.5.1
+  platforms:
+    - name: ubuntu
+      versions:
+        - 18.04
+  galaxy_tags:
+    - docker
+    - containerruntime
+    - ubuntu
+    - kubernetes

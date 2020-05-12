@@ -1,0 +1,4 @@
+---
+- hosts: k8scluster
+  roles:
+    - ansible-role-docker
