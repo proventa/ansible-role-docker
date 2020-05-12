@@ -16,6 +16,7 @@
 - name: Install curl
   apt:
     name: curl
+    state: present
 
 - name: install os dependencies
   apt:
