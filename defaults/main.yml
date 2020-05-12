@@ -34,7 +34,6 @@ os_packages:
     - curl
     - apt-transport-https
     - ca-certificates
-    - gnupg-agent
     - software-properties-common
 
 # install docker packages
