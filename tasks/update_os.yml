@@ -13,6 +13,11 @@
     name: "*"
     state: latest
 
+- name: install os dependencies
+  apt:
+    name: "{{ os_packages }}"
+    state: present
+
 - name: Remove useless packages from the cache
   apt:
     autoclean: yes
